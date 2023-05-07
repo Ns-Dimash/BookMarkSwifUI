@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		01880F7B29EF19F500858E92 /* BookMarkZihr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookMarkZihr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01880F7B29EF19F500858E92 /* BookMarkUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookMarkUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01880F7E29EF19F500858E92 /* BookMarkZihrApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMarkZihrApp.swift; sourceTree = "<group>"; };
 		01880F8029EF19F500858E92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		01880F8229EF19F600858E92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -37,7 +37,7 @@
 		01880F7229EF19F500858E92 = {
 			isa = PBXGroup;
 			children = (
-				01880F7D29EF19F500858E92 /* BookMarkZihr */,
+				01880F7D29EF19F500858E92 /* BookMarkUI */,
 				01880F7C29EF19F500858E92 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,12 +45,12 @@
 		01880F7C29EF19F500858E92 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				01880F7B29EF19F500858E92 /* BookMarkZihr.app */,
+				01880F7B29EF19F500858E92 /* BookMarkUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		01880F7D29EF19F500858E92 /* BookMarkZihr */ = {
+		01880F7D29EF19F500858E92 /* BookMarkUI */ = {
 			isa = PBXGroup;
 			children = (
 				01880F7E29EF19F500858E92 /* BookMarkZihrApp.swift */,
@@ -59,7 +59,7 @@
 				01880F8429EF19F600858E92 /* Preview Content */,
 				01880F8C29EF1ADB00858E92 /* SecondPage.swift */,
 			);
-			path = BookMarkZihr;
+			path = BookMarkUI;
 			sourceTree = "<group>";
 		};
 		01880F8429EF19F600858E92 /* Preview Content */ = {
@@ -73,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		01880F7A29EF19F500858E92 /* BookMarkZihr */ = {
+		01880F7A29EF19F500858E92 /* BookMarkUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01880F8929EF19F600858E92 /* Build configuration list for PBXNativeTarget "BookMarkZihr" */;
+			buildConfigurationList = 01880F8929EF19F600858E92 /* Build configuration list for PBXNativeTarget "BookMarkUI" */;
 			buildPhases = (
 				01880F7729EF19F500858E92 /* Sources */,
 				01880F7829EF19F500858E92 /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = BookMarkZihr;
+			name = BookMarkUI;
 			productName = BookMarkZihr;
-			productReference = 01880F7B29EF19F500858E92 /* BookMarkZihr.app */;
+			productReference = 01880F7B29EF19F500858E92 /* BookMarkUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 01880F7629EF19F500858E92 /* Build configuration list for PBXProject "BookMarkZihr" */;
+			buildConfigurationList = 01880F7629EF19F500858E92 /* Build configuration list for PBXProject "BookMarkUI" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				01880F7A29EF19F500858E92 /* BookMarkZihr */,
+				01880F7A29EF19F500858E92 /* BookMarkUI */,
 			);
 		};
 /* End PBXProject section */
@@ -270,7 +270,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BookMarkZihr/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BookMarkUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 9D422DH2LV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -299,7 +299,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BookMarkZihr/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BookMarkUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 9D422DH2LV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -324,7 +324,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		01880F7629EF19F500858E92 /* Build configuration list for PBXProject "BookMarkZihr" */ = {
+		01880F7629EF19F500858E92 /* Build configuration list for PBXProject "BookMarkUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01880F8729EF19F600858E92 /* Debug */,
@@ -333,7 +333,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		01880F8929EF19F600858E92 /* Build configuration list for PBXNativeTarget "BookMarkZihr" */ = {
+		01880F8929EF19F600858E92 /* Build configuration list for PBXNativeTarget "BookMarkUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01880F8A29EF19F600858E92 /* Debug */,

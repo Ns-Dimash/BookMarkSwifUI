@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct BookMarkZihrApp: App {
+struct BookMarkUIApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
